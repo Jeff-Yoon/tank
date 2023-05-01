@@ -102,7 +102,7 @@
       
       ctx.fillStyle = "blue"
       ctx.font= "20px verdana"
-      ctx.fillText(`총  점수 : ${point_total} 점`, 10, 190)
+      ctx.fillText(`총  점수 : ${point_total} 점`, 10, 195)
 
       // 메인 그리기
       const maindraw = () => {
@@ -236,7 +236,7 @@
             ctx.fillText(`목표점수 : ${point_sum} 점`, 10, 130)
             ctx.font= "20px verdana" 
             ctx.fillText(`명중횟수 : ${targeted} 개`, 10, 170)
-            ctx.fillText(`총  점수 : ${point_total} 점`, 10, 190)
+            ctx.fillText(`총  점수 : ${point_total} 점`, 10, 195)
 
             if (count_missile <= 0) {    // 포탄이 없을 경우
               clearInterval(start);
@@ -568,7 +568,7 @@
             ctx.fillText(`목표점수 : ${point_sum} 점`, 10, 130)
             ctx.font= "20px verdana"
             ctx.fillText(`명중횟수 : ${targeted} 개`, 10, 170)
-            ctx.fillText(`총  점수 : ${point_total} 점`, 10, 190)
+            ctx.fillText(`총  점수 : ${point_total} 점`, 10, 195)
         
         const keydownHandler = event => {   // 키를 누를 때
           if (event.keyCode === 37) {       // 왼쪽 화살표
